@@ -3,6 +3,7 @@ import About from './components/About'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import TextForm from './components/TextForm'
+import ColorChange from './components/ColorChange'
 import {
   BrowserRouter,
   Routes,
@@ -38,8 +39,9 @@ const App = () => {
     <BrowserRouter>
       <Header Name="Dhiraj" darkMode={darkMode} toggleMode={toggleMode}/>
       <Routes> 
-        <Route path="/TextUtils-React" element={<TextForm />}/>
+        <Route path="/text-utils" element={<TextForm />}/>
         <Route path="/about" element={<About />} />
+        <Route path="/color-change" element={<ColorChange />} />
       </Routes>
       <Footer Year="2022"/>
     </BrowserRouter>
