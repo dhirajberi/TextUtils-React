@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = ({Year}) => {
   return (
-    <div className="container">Copyright &copy; {Year}</div>
+    <div className="container">
+      Created by Dhiraj.
+    </div>
   )
 }
 
