@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/TextUtils-React/static/js/main.ebfde7c6.js",
-    "index.html": "/TextUtils-React/index.html",
-    "main.ebfde7c6.js.map": "/TextUtils-React/static/js/main.ebfde7c6.js.map"
+    "main.js": "/React-Apps/static/js/main.57b95de0.js",
+    "index.html": "/React-Apps/index.html",
+    "main.57b95de0.js.map": "/React-Apps/static/js/main.57b95de0.js.map"
   },
   "entrypoints": [
-    "static/js/main.ebfde7c6.js"
+    "static/js/main.57b95de0.js"
   ]
 }
