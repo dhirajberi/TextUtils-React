@@ -20,7 +20,7 @@ const Header = ({Name}) => {
   return (
     <>
     <div className="container" style={myStyle}>
-      Welcome {Name} | <Link to="/">Home</Link> |<Link to="/about">About</Link> | <button onClick={toggleStyle}>{btnText}</button>
+      Welcome {Name} | <Link to="/TextUtils-React">Home</Link> |<Link to="/about">About</Link> | <button onClick={toggleStyle}>{btnText}</button>
     </div>
     </>
   )
